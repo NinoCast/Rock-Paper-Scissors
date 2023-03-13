@@ -7,9 +7,4 @@ console.log(choice);
 
 }
 
-function getPlayerChoice(options) {
-    return getPlayerChoice + options
-
-    
-}
-getComputerChoice();
+getComputerChoice()
