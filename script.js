@@ -12,8 +12,18 @@ function checkWinner(playerSelection, computerSelection) {
         return "You tied"
     }
     else if 
-            (playerSelection == "rock" && computerSelection == "paper")
+            (playerSelection == "rock" && computerSelection == "paper"){
                 return "Congrats You Win!"
+            }
+    
+    else if 
+            (playerSelection == "paper" && computerSelection == "rock"){
+                return "Congrats You Win!"
+            }
+    else if 
+            (playerSelection == "scissors" && computerSelection == "paper"){
+                return "Congrats You Win!"
+            }
             
 
 
